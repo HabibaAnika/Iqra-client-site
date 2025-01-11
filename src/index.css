@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Hind+Siliguri:wght@300;400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  font-family: "Hind Siliguri", sans-serif;
+  overflow-x: hidden;
+}
+body {
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+main {
+  margin-bottom: 4rem; /* Adjust as needed */
+}
+
+/* Tailwind CSS classes */
+.toggle:checked {
+  @apply bg-red-500 border-red-400;
+  /* Ensure no overlapping background */
+}
+
+.toggle:not(:checked) {
+  @apply bg-green-500 border-green-400; /* Ensure clear unchecked state */
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover;
+}
+
+/* Responsive styles for tablets */
+@media (max-width: 768px) {
+  /* Adjust the overall swiper container for better responsiveness on tablets */
+  .swiper {
+    height: auto; /* Automatically adjust height based on content */
+  }
+
+  /* Style adjustments for individual swiper slides */
+  .swiper-slide {
+    font-size: 14px; /* Slightly smaller text for tablets */
+    text-align: center; /* Center align text for better presentation */
+    padding: 60px 0; /* Add padding for spacing around content */
+  }
+
+  /* Maintain proper image scaling and aspect ratio */
+  .swiper-slide img {
+     
+  }
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 420px) {
+  .swiper {
+    height: auto; /* Allow dynamic height adjustment */
+  }
+  .swiper-slide {
+    font-size: 12px; /* Reduce text size for better readability */
+    text-align: center; /* Maintain centered text alignment */
+    padding: 60px 0;  /* Adjust spacing around content */
+  }
+
+  .swiper-slide img {
+    height: auto; /* Automatically adjust image height */
+    max-height: 150px; /* Restrict max height for smaller screens */
+    width: 100%; /* Ensure the image spans the container width */
+    object-fit: contain; /* Prevent cropping for smaller screens */
+  }
+}
+
+
+/*  footer */
+
+/* Ensure the footer adapts to smaller screens */
+footer {
+  position: relative; /* Avoid fixed positioning */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 0;
+}
+
+footer .nav {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically on smaller screens */
+  align-items: center;
+  gap: 1rem; /* Reduce gap for smaller devices */
+}
+
+footer img {
+  max-width: 100%; /* Ensure images scale responsively */
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1rem 0.5rem;
+  }
+
+  footer .nav {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+/* teacher area */
+
+
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #08dd61;
+}
+
+.swiper-pagination-bullet {
+  background: #08dd59;
+}
