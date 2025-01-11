@@ -24,8 +24,8 @@ function ContactNav() {
     <div
       className={`transition-all duration-300 overflow:hidden ${
         isScrolled
-          ? "fixed top-0 left-0 xl:w-full w-screen z-50 bg-[#081d33fd] shadow-lg"
-          : "relative bg-[#2790f859]"
+          ? "fixed top-0 left-0 xl:w-full w-screen z-50 bg-[#232324fd] text-white shadow-lg"
+          : "relative bg-[#104c50e3] text-white"
       }`}
     >
       <div className="mx-1 py-2">
