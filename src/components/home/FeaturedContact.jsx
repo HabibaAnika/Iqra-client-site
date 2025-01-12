@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 function FeaturedContact() {
   return (
-    <div className="relative bg-[url('contact.jpg')] bg-no-repeat bg-cover bg-center py-28">
+    <div className="relative bg-[url('https://i.postimg.cc/Wb0Wyc74/contact.jpg')] bg-no-repeat bg-cover bg-center py-28">
       
 
       <div className="max-w-[80%] mx-auto relative z-10">
@@ -56,7 +56,7 @@ function FeaturedContact() {
             </div>
           </motion.div>
           <motion.div
-            className="lg:w-[35%] md:w-[60%]"
+            className="xl:w-[45%] md:w-[60%]"
             initial={{ opacity: 0, x: -300 }}
             whileInView={{ opacity: 1, x: 0, transition: { duration: 1.5 } }}
             viewport={{ once: false }}
