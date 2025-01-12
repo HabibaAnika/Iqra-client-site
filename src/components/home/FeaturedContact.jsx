@@ -3,19 +3,18 @@ import { motion } from "framer-motion";
 
 function FeaturedContact() {
   return (
-    <div className="relative bg-[url('')] bg-no-repeat bg-cover bg-center py-28">
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-t to-[white] from-[#000] z-0"></div>
+    <div className="relative bg-[url('contact.jpg')] bg-no-repeat bg-cover bg-center py-28">
+      
 
       <div className="max-w-[80%] mx-auto relative z-10">
-        <div className="flex xl:flex-row-reverse items-center justify-center gap-10 flex-col-reverse">
+        <div className="flex xl:flex-row items-center justify-center gap-10 flex-col-reverse">
           <motion.div
             className=""
             initial={{ opacity: 0, x: 300 }}
             whileInView={{ opacity: 1, x: 0, transition: { duration: 1.5 } }}
             viewport={{ once: false }}
           >
-            <div className="w-72 xl:w-96 md:w-96 mx-auto bg-[#0b1a1a60] rounded-lg shadow-xl text-center mb-4 py-5 transform transition-transform duration-300 hover:animate-infinity">
+            <div className="w-72 xl:w-96 md:w-96 mx-auto bg-[#d3dbe2d0] rounded-lg shadow-xl text-center mb-4 py-5 transform transition-transform duration-300 hover:animate-infinity">
               <Link to={"https://wa.me/message/RCTHVDUIYROZB1"}>
                 <img
                   className="bg-transparent mx-auto"
@@ -25,7 +24,7 @@ function FeaturedContact() {
                 <p>Whatsapp</p>
               </Link>
             </div>
-            <div className="w-72 xl:w-96 md:w-96 mx-auto bg-[#0b1a1a60] rounded-lg shadow-xl text-center mb-4 py-5 transform transition-transform duration-300 hover:animate-infinity">
+            <div className="w-72 xl:w-96 md:w-96 mx-auto bg-[#d3dbe2d0] rounded-lg shadow-xl text-center mb-4 py-5 transform transition-transform duration-300 hover:animate-infinity">
               <Link to={"m.me/105080832514455"}>
                 <img
                   className="bg-transparent mx-auto"
@@ -35,7 +34,7 @@ function FeaturedContact() {
                 <p>Messenger</p>
               </Link>
             </div>
-            <div className="w-72 xl:w-96 md:w-96 mx-auto bg-[#bec0bc5b] rounded-lg shadow-xl text-center mb-4 py-5 transform transition-transform duration-300 hover:animate-infinity">
+            <div className="w-72 xl:w-96 md:w-96 mx-auto bg-[#d3dbe2d0] rounded-lg shadow-xl text-center mb-4 py-5 transform transition-transform duration-300 hover:animate-infinity">
               <Link to={"https://t.me/+VFF2fsr8g4I0YmNl"}>
                 <img
                   className="bg-transparent mx-auto"
@@ -45,7 +44,7 @@ function FeaturedContact() {
                 <p>Telegram</p>
               </Link>
             </div>
-            <div className="w-72 xl:w-96 md:w-96 mx-auto bg-[#bec0bc5b] rounded-lg shadow-xl text-center py-5 transform transition-transform duration-300 hover:animate-infinity">
+            <div className="w-72 xl:w-96 md:w-96 mx-auto bg-[#d3dbe2d0] rounded-lg shadow-xl text-center py-5 transform transition-transform duration-300 hover:animate-infinity">
               <Link to={"tel:+8801919465871"}>
                 <img
                   className="bg-transparent mx-auto"
@@ -64,7 +63,7 @@ function FeaturedContact() {
           >
             <img
               className="rounded-lg w-full"
-              src="https://i.postimg.cc/vTXjyqhK/c.png"
+              src="https://i.postimg.cc/NMDkBdSW/contact-us.png"
               alt="Contact"
             />
           </motion.div>

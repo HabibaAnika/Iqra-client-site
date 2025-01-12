@@ -100,7 +100,7 @@ const ThemeSwitcher = () => {
           ? `${currentTheme.charAt(0).toUpperCase() + currentTheme.slice(1)}`
           : themeTranslations[currentTheme]}
       </label>
-      <ul className="absolute dropdown-content z-50 menu shadow bg-base-100 rounded-box max-h-[280px] w-[250px] right-0 top-32 text-[10px]">
+      <ul className="absolute dropdown-content z-50 text-green-600 bg-base-200 menu shadow rounded-box max-h-[280px] w-[250px] right-0 top-32 text-[10px]">
         {themes.map((theme, index) => (
           <li key={index}>
             <button

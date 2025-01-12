@@ -316,7 +316,7 @@ function AllCourses() {
   };
 
    return (
-    <div className="bg-[url('https://i.postimg.cc/xdwFsSq0/t-bg.avif')]">
+    <div className="bg-[url('16.jpg')] bg-no-repeat bg-cover xl:bg-top">
       <div className="max-w-[80%] mx-auto py-20">
         <motion.h2
           className="font-bold text-2xl text-center mb-8"

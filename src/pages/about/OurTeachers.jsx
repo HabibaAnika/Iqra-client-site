@@ -20,7 +20,7 @@ function OurTeachers() {
       banglaYear: "২০২২ ইং",
       result: "First Class",
       banglaResult: "ফার্স্ট ক্লাস",
-      img: "https://i.postimg.cc/CKzWPNN4/t-1.jpg",
+      img: "https://i.postimg.cc/sXLq3fkF/t-1.jpg",
       location: "Founding Director, Netrokona, Mymensingh",
       banglaLocation: "সদর ময়মনসিংহ",
       schedule: ["10:00 am - 12:00 pm","2:30 pm - 4:00 pm",],

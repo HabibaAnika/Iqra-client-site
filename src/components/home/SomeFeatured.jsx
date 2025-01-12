@@ -23,7 +23,7 @@ function SomeFeatured() {
   };
 
   return (
-    <div className='relative bg-[url("https://i.postimg.cc/63PFxGHN/f.webp")] bg-no-repeat bg-cover pt-20 pb-28'>
+    <div className='relative bg-[url("https://i.postimg.cc/KcPLBpYL/f.jpg")] bg-no-repeat bg-cover pt-20 pb-28'>
       {/* <!-- Overlay --> */}
       <div className="absolute bg-[#d8c9c928] bg-opacity-40"></div>
 
