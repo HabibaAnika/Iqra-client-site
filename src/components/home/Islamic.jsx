@@ -1,0 +1,162 @@
+import { Link } from "react-router-dom";
+import { useLanguage } from "../../providers/LanguageProvider";
+import { motion } from "framer-motion";
+
+function Islamic() {
+  const { language } = useLanguage();
+
+  // Animation Variants
+  const fadeIn = {
+    hidden: { opacity: 0, y: 20 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
+  };
+
+  const staggerContainer = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: { staggerChildren: 0.2 },
+    },
+  };
+
+  return (
+    <motion.div
+      className="max-w-[80%] mx-auto py-20"
+      initial="hidden"
+      animate="visible"
+      variants={fadeIn}
+    >
+      <motion.h2
+        className="xl:ml-[32%] md:ml-[40%] ml-[35%] mb-2 font-bold text-2xl text-green-400"
+        variants={fadeIn}
+      >
+        {language === "bn" ? (
+          <>
+            ইসলামী <span className="text-warning">ব্লগ</span>
+          </>
+        ) : (
+          <>
+            Islamic <span className="text-warning">Blog</span>
+          </>
+        )}
+      </motion.h2>
+      <motion.div
+        className="flex xl:flex-row flex-col xl:gap-4 gap-28"
+        variants={staggerContainer}
+      >
+        <div className="grid xl:grid-cols-3 grid-cols-1 gap-2 xl:w-[70%]">
+          <motion.div
+            className="bg-gray-100 h-auto p-4 shadow"
+            variants={fadeIn}
+          >
+            <img src="https://i.postimg.cc/YCZHvcS1/12.jpg" alt="" />
+            <h2>
+              {language === "bn"
+                ? "ফ্রিল্যান্সিং এবং আউটসোর্সিং সম্পর্কিত বেশ কিছু মাসআলা-মাসায়েল"
+                : "There are several issues related to freelancing and outsourcing"}
+            </h2>
+            <Link to={""} className="btn btn-warning btn-xs mt-1">
+              {language === "bn" ? "আরও পড়ুন" : "Read More"}
+            </Link>
+          </motion.div>
+          <motion.div
+            className="bg-gray-100  h-auto p-4 shadow"
+            variants={fadeIn}
+          >
+            <img src="https://i.postimg.cc/YCZHvcS1/12.jpg" alt="" />
+            <h2>
+              {language === "bn"
+                ? "পবিত্র জুমুআর দিনে করণীয় এবং কিছু মাসআলা-মাসায়েল"
+                : "Dos and don'ts on Holy Juma Day"}
+            </h2>
+            <Link to={""} className="btn btn-warning btn-xs mt-1">
+              {language === "bn" ? "আরও পড়ুন" : "Read More"}
+            </Link>
+          </motion.div>
+          <motion.div
+            className="bg-gray-100  h-auto p-4 shadow"
+            variants={fadeIn}
+          >
+            <img src="https://i.postimg.cc/YCZHvcS1/12.jpg" alt="" />
+            <h2>
+              {language === "bn"
+                ? "আরাফার রোজা এবং আরাফার রোজা সম্পর্কিত কিছু মাসআলা"
+                : "Fasting of Arafah and some issues related to Fasting of Arafah"}
+            </h2>
+            <Link to={""} className="btn btn-warning btn-xs mt-1">
+              {language === "bn" ? "আরও পড়ুন" : "Read More"}
+            </Link>
+          </motion.div>
+          <motion.div variants={fadeIn}>
+            <Link className="btn btn-outline btn-warning btn-sm mt-2">
+              {language === "bn" ? "সকল কন্টেন্ট পড়ুন" : "Read all content"}
+            </Link>
+          </motion.div>
+        </div>
+
+        <motion.div className="xl:w-[30%] text-center" variants={fadeIn}>
+          <motion.h2
+            className="font-bold text-green-400 text-2xl mb-2 -mt-10 border"
+            variants={fadeIn}
+          >
+            {language === "bn" ? (
+              <>
+                স্টুডেন্ট <span className="text-warning">কর্নার</span>
+              </>
+            ) : (
+              <>
+                Student<span className="text-warning">Corner</span>
+              </>
+            )}
+          </motion.h2>
+          <motion.div
+            className="grid grid-cols-2 gap-2"
+            variants={staggerContainer}
+          >
+            <Link className="btn btn-info">
+              {language === "en" ? "Class routine" : "ক্লাস রুটিন"}
+            </Link>
+            <Link className="btn btn-info">
+              {language === "en" ? "Deposit slip" : "ডিপজিট স্লিপ"}
+            </Link>
+            <Link className="btn btn-info">
+              {language === "en" ? "Book list" : "বুক লিস্ট"}
+            </Link>
+            <Link className="btn btn-info">
+              {language === "en" ? "ID card" : "আইডি কার্ড"}
+            </Link>
+            <Link className="btn btn-info">
+              {language === "en" ? "Support" : "সাপোর্ট"}
+            </Link>
+            <Link className="btn btn-info">
+              {language === "en"
+                ? "Live class approval"
+                : "লাইভ ক্লাস এপ্রুভাল"}
+            </Link>
+            <Link className="btn btn-info">
+              {language === "en" ? "Attendance Correction" : "এটেনডেন্স সংশোধন"}
+            </Link>
+            <Link className="btn btn-info">
+              {language === "en" ? "Certificate" : "সার্টিফিকেট"}
+            </Link>
+            <Link className="btn btn-info">
+              {language === "en" ? "Policy" : "নীতিমালা"}
+            </Link>
+            <Link className="btn btn-info">
+              {language === "en" ? "Refund Policy" : "রিফান্ড পলিসি"}
+            </Link>
+            <Link className="btn btn-info">
+              {language === "en" ? "Manual Payment" : "ম্যানুয়াল পেমেন্ট"}
+            </Link>
+
+            <Link className="btn btn-info">
+              {language === "en" ? "Re-admission" : "রি-এডমিশন"}
+            </Link>
+          </motion.div>
+        </motion.div>
+      </motion.div>
+    </motion.div>
+  );
+}
+
+export default Islamic;
