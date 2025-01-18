@@ -18,6 +18,10 @@ import Quran from "../pages/details/Quran";
 import Biography from "../pages/details/Biography";
 import Law from "../pages/details/Law";
 import Prayer from "../pages/details/PrayerDetails"
+import Blog_1 from "../pages/islamicBlogs/Blog_1";
+import Blog_2 from "../pages/islamicBlogs/Blog_2";
+import Blog_3 from "../pages/islamicBlogs/Blog_3";
+import AllBlog from "../pages/islamicBlogs/AllBlog";
 
 export const router = createBrowserRouter([
   {
@@ -98,6 +102,22 @@ export const router = createBrowserRouter([
         path: "/teacher-schedule",
         element: <TeacherSchedule />,
       },
+      {
+        path: "/blog-1",
+        element: <Blog_1></Blog_1>
+      },
+      {
+        path: "/blog-2",
+        element: <Blog_2></Blog_2>,
+      },
+      {
+        path : "/blog-3",
+        element: <Blog_3/>
+      },
+      {
+        path: "/allBlog",
+        element: <AllBlog/>
+      }
     ],
   },
 ]);

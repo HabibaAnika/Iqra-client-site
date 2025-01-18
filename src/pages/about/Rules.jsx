@@ -196,7 +196,7 @@ function Rules() {
                   <p className="mt-3">
                     {language === "bn"
                       ? "যেকোনো সমস্যা হোয়াটসঅ্যাপ গ্রুপে জানানো বাধ্যতামূলক। সাপোর্ট টিম দ্রুত সমস্যা সমাধানে কাজ করবে।"
-                      : "Any problem must be reported to the WhatsApp group. The support team will work to resolve the issue quickly."}
+                      : "Any Issue must be reported to the WhatsApp group. The support team will work to resolve the issue quickly."}
                   </p>
                 </div>
                 {/* end teacher area */}
@@ -343,7 +343,7 @@ function Rules() {
                   <p className="mt-3">
                     {language === "bn"
                       ? "যেকোনো সমস্যার সমাধান হোয়াটসঅ্যাপ গ্রুপে জানানো বাধ্যতামূলক। সাপোর্ট টিম দ্রুত সমস্যা সমাধানে কাজ করবে। সমস্যা আওতার বাইরে চলে গেলে পরিচালক প্যানেলে জানাতে হবে।"
-                      : "It is mandatory to address any issues in the WhatsApp group. The support team will work swiftly to resolve problems. If an issue goes beyond their scope, it must be escalated to the management panel."}
+                      : "It is mandatory to address any issues in the WhatsApp group. The support team will work swiftly to resolve Issue. If an issue goes beyond their scope, it must be escalated to the management panel."}
                   </p>
                 </div>
 

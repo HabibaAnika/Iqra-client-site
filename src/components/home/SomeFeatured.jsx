@@ -79,7 +79,7 @@ function SomeFeatured() {
               title: language === "bn" ? "২৪ ঘন্টা সহায়তা" : "24 hour support",
               description: language === "bn"
                 ? "২৪ ঘন্টা আপনার ক্লাসের পাঠ সংক্রান্ত যেকোনো প্রশ্ন এবং আপনার সমস্যা সমাধান দেয়ার জন্য আমাদের টিম মেম্বার প্রস্তুত রয়েছে"
-                : "Our team members are ready 24 hours a day to solve any queries and problems related to your class lessons",
+                : "Our team members are ready 24 hours a day to solve any queries and Issue related to your class lessons",
             },
           ].map((feature, index) => (
             <motion.div

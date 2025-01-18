@@ -23,12 +23,15 @@ function Islamic() {
     <motion.div
       className="max-w-[80%] mx-auto py-20"
       initial="hidden"
-      animate="visible"
+      whileInView="visible"
       variants={fadeIn}
+      viewport={{ once: false, amount: 0.1 }} // Trigger animation when 10% of the element is visible
     >
+      {/* Heading */}
       <motion.h2
         className="xl:ml-[32%] md:ml-[40%] ml-[35%] mb-2 font-bold text-2xl text-green-400"
         variants={fadeIn}
+        viewport={{ once: false }}
       >
         {language === "bn" ? (
           <>
@@ -40,14 +43,20 @@ function Islamic() {
           </>
         )}
       </motion.h2>
+
+      {/* Main Content */}
       <motion.div
         className="flex xl:flex-row flex-col xl:gap-4 gap-28"
         variants={staggerContainer}
+        viewport={{ once: false }}
       >
+        {/* Blog Posts Section */}
         <div className="grid xl:grid-cols-3 grid-cols-1 gap-2 xl:w-[70%]">
+          {/* Blog 1 */}
           <motion.div
             className="bg-gray-100 h-auto p-4 shadow"
             variants={fadeIn}
+            viewport={{ once: false, amount: 0.3 }}
           >
             <img src="https://i.postimg.cc/YCZHvcS1/12.jpg" alt="" />
             <h2>
@@ -55,13 +64,16 @@ function Islamic() {
                 ? "ফ্রিল্যান্সিং এবং আউটসোর্সিং সম্পর্কিত বেশ কিছু মাসআলা-মাসায়েল"
                 : "There are several issues related to freelancing and outsourcing"}
             </h2>
-            <Link to={""} className="btn btn-warning btn-xs mt-1">
+            <Link to={"/blog-1"} className="btn btn-warning btn-xs mt-1">
               {language === "bn" ? "আরও পড়ুন" : "Read More"}
             </Link>
           </motion.div>
+
+          {/* Blog 2 */}
           <motion.div
-            className="bg-gray-100  h-auto p-4 shadow"
+            className="bg-gray-100 h-auto p-4 shadow"
             variants={fadeIn}
+            viewport={{ once: false, amount: 0.3 }}
           >
             <img src="https://i.postimg.cc/YCZHvcS1/12.jpg" alt="" />
             <h2>
@@ -69,13 +81,16 @@ function Islamic() {
                 ? "পবিত্র জুমুআর দিনে করণীয় এবং কিছু মাসআলা-মাসায়েল"
                 : "Dos and don'ts on Holy Juma Day"}
             </h2>
-            <Link to={""} className="btn btn-warning btn-xs mt-1">
+            <Link to={"/blog-2"} className="btn btn-warning btn-xs mt-1">
               {language === "bn" ? "আরও পড়ুন" : "Read More"}
             </Link>
           </motion.div>
+
+          {/* Blog 3 */}
           <motion.div
-            className="bg-gray-100  h-auto p-4 shadow"
+            className="bg-gray-100 h-auto p-4 shadow"
             variants={fadeIn}
+            viewport={{ once: false, amount: 0.3 }}
           >
             <img src="https://i.postimg.cc/YCZHvcS1/12.jpg" alt="" />
             <h2>
@@ -83,18 +98,25 @@ function Islamic() {
                 ? "আরাফার রোজা এবং আরাফার রোজা সম্পর্কিত কিছু মাসআলা"
                 : "Fasting of Arafah and some issues related to Fasting of Arafah"}
             </h2>
-            <Link to={""} className="btn btn-warning btn-xs mt-1">
+            <Link to={"/blog-3"} className="btn btn-warning btn-xs mt-1">
               {language === "bn" ? "আরও পড়ুন" : "Read More"}
             </Link>
           </motion.div>
+
+          {/* View All Blogs */}
           <motion.div variants={fadeIn}>
-            <Link className="btn btn-outline btn-warning btn-sm mt-2">
+            <Link to={"/allBlog"} className="btn btn-outline btn-warning btn-sm mt-2">
               {language === "bn" ? "সকল কন্টেন্ট পড়ুন" : "Read all content"}
             </Link>
           </motion.div>
         </div>
 
-        <motion.div className="xl:w-[30%] text-center" variants={fadeIn}>
+        {/* Student Corner Section */}
+        <motion.div
+          className="xl:w-[30%] text-center"
+          variants={fadeIn}
+          viewport={{ once: false }}
+        >
           <motion.h2
             className="font-bold text-green-400 text-2xl mb-2 -mt-10 border"
             variants={fadeIn}
@@ -112,6 +134,7 @@ function Islamic() {
           <motion.div
             className="grid grid-cols-2 gap-2"
             variants={staggerContainer}
+            viewport={{ once: false }}
           >
             <Link className="btn btn-info">
               {language === "en" ? "Class routine" : "ক্লাস রুটিন"}
@@ -129,9 +152,7 @@ function Islamic() {
               {language === "en" ? "Support" : "সাপোর্ট"}
             </Link>
             <Link className="btn btn-info">
-              {language === "en"
-                ? "Live class approval"
-                : "লাইভ ক্লাস এপ্রুভাল"}
+              {language === "en" ? "Live class approval" : "লাইভ ক্লাস এপ্রুভাল"}
             </Link>
             <Link className="btn btn-info">
               {language === "en" ? "Attendance Correction" : "এটেনডেন্স সংশোধন"}
@@ -148,7 +169,6 @@ function Islamic() {
             <Link className="btn btn-info">
               {language === "en" ? "Manual Payment" : "ম্যানুয়াল পেমেন্ট"}
             </Link>
-
             <Link className="btn btn-info">
               {language === "en" ? "Re-admission" : "রি-এডমিশন"}
             </Link>
