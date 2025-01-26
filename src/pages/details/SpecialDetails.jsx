@@ -61,14 +61,14 @@ function SpecialDetails() {
         </h2>
         <p className="text-sm bg-[#dde7e265] p-4 rounded-sm mb-4">
           {language === "en"
-            ? "This course is designed for a duration of 3-6 months with 6 classes per week. Students will have access to small batch sizes of 5-7 participants for personalized guidance. The course fee is 1499 Taka per month, and all classes are conducted online using Zoom, Meet, and WhatsApp platforms."
-            : "এই কোর্সটি ৩-৬ মাসের জন্য ডিজাইন করা হয়েছে, সপ্তাহে ৬টি ক্লাস। শিক্ষার্থীরা ৫-৭ জনের ছোট ব্যাচে ব্যক্তিগত নির্দেশনার সুবিধা পাবেন। কোর্স ফি প্রতি মাসে ১৪৯৯ টাকা, এবং সমস্ত ক্লাস জুম, মিট এবং হোয়াটসঅ্যাপ প্ল্যাটফর্মে অনলাইনে পরিচালিত হয়।"}
+            ? "This course is designed for a duration of 6 months with 5 classes per week. Students will have access to small batch sizes of 5-7 participants for personalized guidance. The course fee is 999 Taka per month, and all classes are conducted online using Zoom, Meet, and WhatsApp platforms."
+            : "এই কোর্সটি ৬ মাসের জন্য ডিজাইন করা হয়েছে, সপ্তাহে ৫টি ক্লাস। শিক্ষার্থীরা ৫-৭ জনের ছোট ব্যাচে ব্যক্তিগত নির্দেশনার সুবিধা পাবেন। কোর্স ফি প্রতি মাসে ৯৯৯ টাকা, এবং সমস্ত ক্লাস জুম, মিট এবং হোয়াটসঅ্যাপ প্ল্যাটফর্মে অনলাইনে পরিচালিত হয়।"} 
 
           {language === "bn" ? (
             <>
               <br />
-              কোর্সের সময়সীমা: ১ বছর <br />
-              ক্লাসের সময়: সপ্তাহে ৬ দিন <br />
+              কোর্সের সময়সীমা: ৬ মাস <br />
+              ক্লাসের সময়: সপ্তাহে ৫ দিন <br />
               উন্নত তাজবীদ এবং ক্বিরাত শেখানো হবে। <br />
               পুরুষ/মহিলা ও ছোট বাচ্চা সবার জন্য আলাদা ব্যাচ আছে। <br />
               মহিলা শিক্ষার্থীদের ক্লাস মহিলা শিক্ষিকা নিবেন। <br />
@@ -84,8 +84,8 @@ function SpecialDetails() {
             </>
           ) : (
             <>
-              Course Duration: 1 year <br />
-              Class Schedule: 6 days a week <br />
+              Course Duration: 6 months <br />
+              Class Schedule: 5 days a week <br />
               Advanced Tajweed and Qirat training will be provided. <br />
               There are separate batches for men/women and children. <br />
               Class of female students will be taken by female teacher. <br />

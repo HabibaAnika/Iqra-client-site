@@ -56,10 +56,11 @@ function Quran() {
           <p>
             {language === "bn" ? (
               <>
-                কোর্সের সময়সীমা: ৩/৪ মাস মেয়াদী কোর্স
+                কোর্সের সময়সীমা: ১/২ বছর মেয়াদী কোর্স
                 <br />
-                ক্লাসের সময়: সপ্তাহে ৬ দিন
+                ক্লাসের সময়: সপ্তাহে ৫ দিন
                 <br />
+                কোর্স ফি ঃ ১১৯৯ টাকা (মাসিক) <br />
                 পুরুষ/মহিলা ও ছোট বাচ্চা সবার জন্য আলাদা ব্যাচ আছে। <br />
                 মহিলা শিক্ষার্থীদের ক্লাস মহিলা শিক্ষিকা নিবেন। <br />
                 এছাড়াও হোয়াটসঅ্যাপ এর মাধ্যমে সার্বক্ষণিক সহযোগিতা প্রদান করা।{" "}
@@ -74,8 +75,9 @@ function Quran() {
               </>
             ) : (
               <>
-                Course Duration: 3/4 month course <br />
-                Class Schedule: 6 days a week <br />
+                Course Duration: 1/2 Years course <br />
+                Class Schedule: 5 days a week <br />
+                Course Fee: 1199 Taka (monthly) <br />
                 There are separate batches for men/women and children. <br />
                 Class of female students will be taken by female teacher. <br />
                 Also providing round the clock support through WhatsApp. <br />

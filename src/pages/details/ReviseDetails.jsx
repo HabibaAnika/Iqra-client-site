@@ -51,14 +51,14 @@ function ReviseDetails() {
         </h2>
         <p className="text-sm bg-[#2781ca46] p-4 rounded-sm mb-4">
           {language === "en"
-            ? "This course is designed for a duration of 1 year, depending on individual progress. Classes are held 6 days a week with flexible timing options. Students will have access to small batch sizes of 5-7 participants for personalized guidance. Students receive one-on-one sessions to ensure focused learning. A dedicated WhatsApp group is available for continuous support and guidance. The course fee is 1499 Taka per month, and all classes are conducted online using Zoom, Meet, and WhatsApp platforms."
-            : "এই কোর্সটি ১ বছরের জন্য ডিজাইন করা হয়েছে, যা শিক্ষার্থীর অগ্রগতির উপর নির্ভরশীল।, সপ্তাহে ৬টি ক্লাস এবং সময়ের ক্ষেত্রে নমনীয়তা রয়েছে। শিক্ষার্থীরা ৫-৭ জনের ছোট ব্যাচে ব্যক্তিগত নির্দেশনার সুবিধা পাবেন।শিক্ষার্থীরা ফোকাসড শেখার জন্য একান্ত সেশনের সুযোগ পায়। টানা সহায়তা এবং নির্দেশনার জন্য একটি নিবেদিত হোয়াটসঅ্যাপ গ্রুপ রয়েছে। কোর্স ফি প্রতি মাসে ১৪৯৯ টাকা, এবং সমস্ত ক্লাস জুম, মিট এবং হোয়াটসঅ্যাপ প্ল্যাটফর্মে অনলাইনে পরিচালিত হয়।"}
+            ? "This course is designed for a duration of 1/2 years, depending on individual progress. Classes are held 6 days a week with flexible timing options. Students will have access to small batch sizes of 5-7 participants for personalized guidance. Students receive one-on-one sessions to ensure focused learning. A dedicated WhatsApp group is available for continuous support and guidance. The course fee is 1499 Taka per month, and all classes are conducted online using Zoom, Meet, and WhatsApp platforms."
+            : "এই কোর্সটি ১/২ বছরের জন্য ডিজাইন করা হয়েছে, যা শিক্ষার্থীর অগ্রগতির উপর নির্ভরশীল।, সপ্তাহে ৬টি ক্লাস এবং সময়ের ক্ষেত্রে নমনীয়তা রয়েছে। শিক্ষার্থীরা ৫-৭ জনের ছোট ব্যাচে ব্যক্তিগত নির্দেশনার সুবিধা পাবেন।শিক্ষার্থীরা ফোকাসড শেখার জন্য একান্ত সেশনের সুযোগ পায়। টানা সহায়তা এবং নির্দেশনার জন্য একটি নিবেদিত হোয়াটসঅ্যাপ গ্রুপ রয়েছে। কোর্স ফি প্রতি মাসে ১৪৯৯ টাকা, এবং সমস্ত ক্লাস জুম, মিট এবং হোয়াটসঅ্যাপ প্ল্যাটফর্মে অনলাইনে পরিচালিত হয়।"}
 
           {language === "bn" ? (
             <>
               <br />
-              কোর্সের সময়সীমা: ১ বছর <br />
-              ক্লাসের সময়: সপ্তাহে ৬ দিন <br />
+              কোর্সের সময়সীমা: ১/২ বছর <br />
+              ক্লাসের সময়: সপ্তাহে ৫ দিন <br />
               উন্নত তাজবীদ এবং ক্বিরাত শেখানো হবে। <br />
               পুরুষ/মহিলা ও ছোট বাচ্চা সবার জন্য আলাদা ব্যাচ আছে। <br />
               মহিলা শিক্ষার্থীদের ক্লাস মহিলা শিক্ষিকা নিবেন। <br />
@@ -74,8 +74,8 @@ function ReviseDetails() {
             </>
           ) : (
             <>
-              Course Duration: 1 year <br />
-              Class Schedule: 6 days a week <br />
+              Course Duration: 1/2 year <br />
+              Class Schedule: 5 days a week <br />
               Advanced Tajweed and Qirat training will be provided. <br />
               There are separate batches for men/women and children. <br />
               Class of female students will be taken by female teacher. <br />

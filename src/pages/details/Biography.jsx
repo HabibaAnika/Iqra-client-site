@@ -66,15 +66,16 @@ function Biography() {
         </h2>
         <p className="text-sm mb-4 bg-[#1053722a] p-4 rounded-sm">
           {language === "en"
-            ? "This course is conducted over 3-4 months, with 6 classes per week. Students will be taught in small batches of 5 to ensure personalized attention and guidance. The course fee is 999 per month."
-            : "এই কোর্সটি ৩-৪ মাস ধরে পরিচালিত হয়, সপ্তাহে ৬টি ক্লাস। শিক্ষার্থীদের ব্যক্তিগত মনোযোগ এবং দিকনির্দেশনা নিশ্চিত করতে ৫ জনের ছোট ব্যাচে পাঠ দেওয়া হয়। কোর্স ফি প্রতি মাসে ৯৯৯। "}
+            ? "This course is conducted over 2/3 months, with 5 classes per week. Students will be taught in small batches of 5 to ensure personalized attention and guidance."
+            : "এই কোর্সটি ৩-৪ মাস ধরে পরিচালিত হয়, সপ্তাহে ৫টি ক্লাস। শিক্ষার্থীদের ব্যক্তিগত মনোযোগ এবং দিকনির্দেশনা নিশ্চিত করতে ৫ জনের ছোট ব্যাচে পাঠ দেওয়া হয়।"}
           <p>
             {language === "bn" ? (
               <>
-                কোর্সের সময়সীমা: ৩/৪ মাস মেয়াদী কোর্স
+                কোর্সের সময়সীমা : ৩/৪ মাস মেয়াদী কোর্স
                 <br />
-                ক্লাসের সময়: সপ্তাহে ৬ দিন
+                ক্লাসের সময় : সপ্তাহে ৫ দিন
                 <br />
+                কোর্স ফি : ১১৯৯ টাকা (মাসিক) <br />
                 পুরুষ/মহিলা ও ছোট বাচ্চা সবার জন্য আলাদা ব্যাচ আছে। <br />
                 মহিলা শিক্ষার্থীদের ক্লাস মহিলা শিক্ষিকা নিবেন। <br />
                 এছাড়াও হোয়াটসঅ্যাপ এর মাধ্যমে সার্বক্ষণিক সহযোগিতা প্রদান করা।{" "}
@@ -89,8 +90,9 @@ function Biography() {
               </>
             ) : (
               <>
-                Course Duration: 3/4 month course <br />
-                Class Schedule: 6 days a week <br />
+                Course Duration : 3/4 month course <br />
+                Class Schedule : 5 days a week <br />
+                Course Fee : 1199 Taka (monthly) <br />
                 There are separate batches for men/women and children. <br />
                 Class of female students will be taken by female teacher. <br />
                 Also providing round the clock support through WhatsApp. <br />

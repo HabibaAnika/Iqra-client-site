@@ -136,40 +136,40 @@ function Islamic() {
             variants={staggerContainer}
             viewport={{ once: false }}
           >
-            <Link className="btn btn-info">
+            <Link to={"/routine"} className="btn btn-info">
               {language === "en" ? "Class routine" : "ক্লাস রুটিন"}
             </Link>
-            <Link className="btn btn-info">
+            <Link to={"/"} className="btn btn-info">
               {language === "en" ? "Deposit slip" : "ডিপজিট স্লিপ"}
             </Link>
-            <Link className="btn btn-info">
+            <Link to={"/book"} className="btn btn-info">
               {language === "en" ? "Book list" : "বুক লিস্ট"}
             </Link>
-            <Link className="btn btn-info">
+            <Link to={"/id"} className="btn btn-info">
               {language === "en" ? "ID card" : "আইডি কার্ড"}
             </Link>
-            <Link className="btn btn-info">
+            <Link to={"/support"} className="btn btn-info">
               {language === "en" ? "Support" : "সাপোর্ট"}
             </Link>
-            <Link className="btn btn-info">
+            <Link to={"/"} className="btn btn-info">
               {language === "en" ? "Live class approval" : "লাইভ ক্লাস এপ্রুভাল"}
             </Link>
-            <Link className="btn btn-info">
-              {language === "en" ? "Attendance Correction" : "এটেনডেন্স সংশোধন"}
+            <Link to={"/attendance"} className="btn btn-info">
+              {language === "en" ? "Attendance" : "এটেনডেন্স"}
             </Link>
-            <Link className="btn btn-info">
+            <Link to={"/certificate"} className="btn btn-info">
               {language === "en" ? "Certificate" : "সার্টিফিকেট"}
             </Link>
-            <Link className="btn btn-info">
+            <Link to={"/rules"} className="btn btn-info">
               {language === "en" ? "Policy" : "নীতিমালা"}
             </Link>
-            <Link className="btn btn-info">
+            <Link to={"/"} className="btn btn-info">
               {language === "en" ? "Refund Policy" : "রিফান্ড পলিসি"}
             </Link>
-            <Link className="btn btn-info">
+            <Link to={"/"} className="btn btn-info">
               {language === "en" ? "Manual Payment" : "ম্যানুয়াল পেমেন্ট"}
             </Link>
-            <Link className="btn btn-info">
+            <Link to={"/"} className="btn btn-info">
               {language === "en" ? "Re-admission" : "রি-এডমিশন"}
             </Link>
           </motion.div>

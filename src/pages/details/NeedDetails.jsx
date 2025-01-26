@@ -55,10 +55,11 @@ function NeedDetails() {
         <p className="text-sm mb-4 bg-[#1c9de7bb] p-4 rounded-sm">
           {language === "bn" ? (
             <>
-              কোর্সের সময়সীমা: ৬ মাস - ১ বছর মেয়াদী কোর্স
+              কোর্সের সময়সীমা: ১/২ বছর মেয়াদী কোর্স
               <br />
-              ক্লাসের সময়: সপ্তাহে ৬ দিন
+              ক্লাসের সময়: সপ্তাহে ৫ দিন
               <br />
+              কোর্স ফি ঃ ১১৯৯ টাকা, <br />
               পুরুষ/মহিলা ও ছোট বাচ্চা সবার জন্য আলাদা ব্যাচ আছে। <br />
               মহিলা শিক্ষার্থীদের ক্লাস মহিলা শিক্ষিকা নিবেন। <br />
               এছাড়াও হোয়াটসঅ্যাপ এর মাধ্যমে সার্বক্ষণিক সহযোগিতা প্রদান করা।{" "}
@@ -70,12 +71,13 @@ function NeedDetails() {
               <br />
               ডেমো ক্লাস করার পর আপনি ভর্তি হতে পারবেন <br />
               সীমিত কোটায় ভর্তি চলছে। <br />
-              কোর্স ফি : ১১৯৯ টাকা (মাসিক)
+              কোর্স ফি : ১১৯৯ টাকা (মাসিক) 
             </>
           ) : (
             <>
-              Course Duration: 6 month - 1 years course <br />
-              Class Schedule: 6 days a week <br />
+              Course Duration: 1/2 Years course <br />
+              Class Schedule: 5 days a week <br />
+              Course Fee: 1199 Taka <br />
               There are separate batches for men/women and children. <br />
               Class of female students will be taken by female teacher. <br />
               Also providing round the clock support through WhatsApp. <br />

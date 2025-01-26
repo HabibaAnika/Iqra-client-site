@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 function AllCourses() {
   const { language } = useLanguage();
   const courses = [
+
     // বেসিক কোরআন
     {
       courseName: "Basic Quran Course",
@@ -24,11 +25,12 @@ function AllCourses() {
         bn: "৫",
       },
       duration: {
-        english: "3/4 Months (6 Days a Week)",
-        bangla: "৩/৪ মাস (সপ্তাহে ৬ দিন)",
+        english: "3/4 Months (5 Days a Week)",
+        bangla: "৩/৪ মাস (সপ্তাহে ৫ দিন)",
       },
       link: "/basic",
     },
+
     // নাযেরা কোর্স
     {
       courseName: "Advance Quran Course (Nazera)",
@@ -48,11 +50,12 @@ function AllCourses() {
         bn: "৫",
       },
       duration: {
-        english: "1 Year (6 Days a Week)",
-        bangla: "১ বছর (সপ্তাহে ৬ দিন)",
+        english: "1 Year (5 Days a Week)",
+        bangla: "১ বছর (সপ্তাহে ৫ দিন)",
       },
       link: "/nazera",
     },
+
     // আমপারা কোর্স
     {
       courseName: "30th Part Memorizing Course (Ampara Hifz)",
@@ -61,7 +64,7 @@ function AllCourses() {
         english:
           "Begin your Quran memorization journey with Juz Amma, the 30th part of the Quran. This course is ideal for beginners focusing on short surahs.",
         bangla:
-          "কোরআনের ৩০তম পারা দিয়ে আপনার মুখস্থ যাত্রা শুরু করুন। এই কোর্সটি ছোট সূরার উপর ফোকাস করা, যেটি নবাগতদের জন্য উপযুক্ত।",
+          "কোরআনের ৩০তম পারা দিয়ে আপনার মুখস্থ যাত্রা শুরু করুন। এই কোর্সটি আমপারার সূরার উপর ফোকাস করা, যেটি নবাগতদের জন্য উপযুক্ত।",
       },
       price: {
         en: "999 Tk",
@@ -72,11 +75,12 @@ function AllCourses() {
         bn: "৫",
       },
       duration: {
-        english: "5/6 Months (6 Days a Week)",
-        bangla: "৫/৬ মাস (সপ্তাহে ৬ দিন)",
+        english: "3/4 Months (5 Days a Week)",
+        bangla: "৩/৪ মাস (সপ্তাহে ৫ দিন)",
       },
       link: "/ampara",
     },
+
     // হিফয কোর্স
     {
       courseName: "Memorizing Al Quran (Hifz)",
@@ -96,11 +100,12 @@ function AllCourses() {
         bn: "৫",
       },
       duration: {
-        english: "3/4 Years (6 Days a Week)",
-        bangla: "৩/৪ বছর (সপ্তাহে ৬ দিন)",
+        english: "3/4 Years (5 Days a Week)",
+        bangla: "৩/৪ বছর (সপ্তাহে ৫ দিন)",
       },
       link: "/hifz",
     },
+
     // হিফয রিভাইস
     {
       courseName: "Hifz Revise Course",
@@ -120,11 +125,12 @@ function AllCourses() {
         bn: "৫",
       },
       duration: {
-        english: "1/2 Years (6 Days a Week)",
-        bangla: "১/২ বছর (সপ্তাহে ৬ দিন)",
+        english: "1/2 Years (5 Days a Week)",
+        bangla: "১/২ বছর (সপ্তাহে ৫ দিন)",
       },
       link: "/revise",
     },
+
     // ফজিলতের সূরা হিফয
     {
       courseName: "Special Hifz Course",
@@ -144,11 +150,12 @@ function AllCourses() {
         bn: "৫",
       },
       duration: {
-        english: "3/4 Years (6 Days a Week)",
-        bangla: "৩/৪ বছর (সপ্তাহে ৬ দিন)",
+        english: "6 month (5 Days a Week)",
+        bangla: "৬ মাস (সপ্তাহে ৫ দিন)",
       },
       link: "/special",
     },
+
     // আলিম কোর্স
     {
       courseName: "Course to become an Islamic scholar (Alim Course)",
@@ -168,11 +175,12 @@ function AllCourses() {
         bn: "৫",
       },
       duration: {
-        english: "3/4 Years (6 Days a Week)",
-        bangla: "৩/৪ বছর (সপ্তাহে ৬ দিন)",
+        english: "3/4 Years (5 Days a Week)",
+        bangla: "৩/৪ বছর (সপ্তাহে ৫ দিন)",
       },
       link: "/alim",
     },
+
     // ফরজে আইন
     {
       courseName: "Need for Ummah Course",
@@ -192,11 +200,12 @@ function AllCourses() {
         bn: "৫",
       },
       duration: {
-        english: "1/2 Year (6 Days a Week)",
-        bangla: "১/২ বছর (সপ্তাহে ৬ দিন)",
+        english: "1/2 Year (5 Days a Week)",
+        bangla: "১/২ বছর (সপ্তাহে ৫ দিন)",
       },
       link: "/need",
     },
+
     // কোরআন তরজমা
     {
       courseName: "Quran translation course",
@@ -216,11 +225,12 @@ function AllCourses() {
         bn: "৫",
       },
       duration: {
-        english: "1/2 Year (6 Days a Week)",
-        bangla: "১/২ বছর (সপ্তাহে ৬ দিন)",
+        english: "1/2 Year (5 Days a Week)",
+        bangla: "১/২ বছর (সপ্তাহে ৫ দিন)",
       },
       link: "/quran",
     },
+
     // নবিদের সিরাত
     {
       courseName: "Biographies of the Prophets Course",
@@ -240,11 +250,12 @@ function AllCourses() {
         bn: "৫",
       },
       duration: {
-        english: "1/2 Year (6 Days a Week)",
-        bangla: "১/২ বছর (সপ্তাহে ৬ দিন)",
+        english: "2/3 month (5 Days a Week)",
+        bangla: "২/৩ মাস (সপ্তাহে ৫ দিন)",
       },
       link: "/bio",
     },
+
     //ইলমুল ফারায়েয কোর্স 
     {
       courseName: "Inheritance law Course",
@@ -254,8 +265,6 @@ function AllCourses() {
           "This course teaches the principles of Islamic inheritance law, covering the distribution of wealth according to the Quran and Hadith. Students will learn how to calculate shares, understand legal heirs, and apply the laws in real-life scenarios.",
         bangla:
           "এই কোর্সটি ইসলামী উত্তরাধিকার আইন শেখায়, যা কুরআন ও হাদীথ অনুযায়ী সম্পদ বিতরণের পদ্ধতি নিয়ে আলোচনা করে। শিক্ষার্থীরা উত্তরাধিকারীর অংশ হিসাব করা, আইনি উত্তরাধিকারী নির্ধারণ এবং বাস্তব জীবনে এই আইন প্রয়োগ করতে শিখবে।"
-
-,
       },
       price: {
         en: "1199 Tk",
@@ -266,8 +275,8 @@ function AllCourses() {
         bn: "৫",
       },
       duration: {
-        english: "1/2 Year (6 Days a Week)",
-        bangla: "১/২ বছর (সপ্তাহে ৬ দিন)",
+        english: "1/2 Year (5 Days a Week)",
+        bangla: "১/২ বছর (সপ্তাহে ৫ দিন)",
       },
       link: "/law",
     },
@@ -283,21 +292,20 @@ function AllCourses() {
           "এই কোর্সটি সালাত (নামায) এবং এর সম্পর্কিত মাসায়েল সম্পর্কে ব্যাপক শিক্ষা প্রদান করে। শিক্ষার্থীরা সাধারণ ভুলগুলি সম্পর্কে জানবে, সেগুলি কিভাবে সংশোধন করতে হবে এবং বিভিন্ন পরিস্থিতিতে নামায কিভাবে আদায় করতে হয়, তা শিখবে। এই কোর্সটির উদ্দেশ্য হল শিক্ষার্থীদের তাদের দৈনিক ইবাদতের সাথে সম্পর্ক আরও দৃঢ় করা এবং ইসলামিক শিক্ষা অনুসারে সঠিকভাবে নামায আদায় করা নিশ্চিত করা।"
       },
       price: {
-        en: "1199 Tk",
-        bn: "১১৯৯ টাকা",
+        en: "999 Tk",
+        bn: "৯৯৯ টাকা",
       },
       seats: {
         en: "5",
         bn: "৫",
       },
       duration: {
-        english: "1/2 Year (6 Days a Week)",
-        bangla: "১/২ বছর (সপ্তাহে ৬ দিন)",
+        english: "6 month (5 Days a Week)",
+        bangla: "৬ মাস (সপ্তাহে ৫ দিন)",
       },
       link: "/prayer",
     },
 
-   
   ];
 
   // Animation Variants
@@ -326,8 +334,7 @@ function AllCourses() {
           {language === "en" ? "All Courses" : "সকল কোর্স"}
         </motion.h2>
         
-        <motion.div
-          className="grid lg:grid-cols-4 gap-10"
+        <motion.div className="grid xl:grid-cols-4 md:grid-cols-2 gap-5"
           initial="hidden"
           animate="visible"
           variants={containerVariants}
@@ -345,6 +352,7 @@ function AllCourses() {
             </motion.div>
           ))}
         </motion.div>
+
       </div>
     </div>
   );

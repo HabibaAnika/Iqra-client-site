@@ -48,13 +48,13 @@ function AmparaDetails() {
         </h2>
         <p className="mb-4 bg-[#bbe0e459] p-4 rounded-sm text-sm">
           {language === "en"
-            ? "This course runs for  4/6 months, with 5 classes per week. Students will be taught in small groups to ensure personalized guidance. The course fee is 999 per month."
-            : "এই কোর্সটি ৪/৬ মাস ধরে পরিচালিত হয়, সপ্তাহে ৬ দিন ক্লাস। শিক্ষার্থীদের ছোট ব্যাচে পড়ানো হয় যাতে ব্যক্তিগত দিকনির্দেশনা নিশ্চিত করা যায়। কোর্স ফি প্রতি মাসে ৯৯৯।"}
+            ? "This course runs for  3/4 months, with 5 classes per week. Students will be taught in small groups to ensure personalized guidance. The course fee is 999 per month."
+            : "এই কোর্সটি ৩/৪ মাস ধরে পরিচালিত হয়, সপ্তাহে ৬ দিন ক্লাস। শিক্ষার্থীদের ছোট ব্যাচে পড়ানো হয় যাতে ব্যক্তিগত দিকনির্দেশনা নিশ্চিত করা যায়। কোর্স ফি প্রতি মাসে ৯৯৯।"}
           <p> 
             {language === "bn" ? (
               <>
-                কোর্সের সময়সীমা: ৪/৬ মাস <br />
-                ক্লাসের সময়: সপ্তাহে ৬ দিন <br />
+                কোর্সের সময়সীমা: ৩/৪ মাস <br />
+                ক্লাসের সময়: সপ্তাহে ৫ দিন <br />
                 আলাদা ব্যাচ: বাচ্চা, মহিলা এবং পুরুষদের জন্য। <br />
                 এছাড়াও হোয়াটসঅ্যাপ এর মাধ্যমে সার্বক্ষণিক সহযোগিতা প্রদান করা। <br />
                 ঘরে বসেই প্রশিক্ষণপ্রাপ্ত অভিজ্ঞ উস্তাজ, হাফিজ ক্বারী এবং আলেমদের দ্বারা অনলাইনে কুরআন তাজবীদ শিখুন।{" "}
@@ -65,8 +65,8 @@ function AmparaDetails() {
               </> 
             ) : (
               <>
-                Course Duration: 4/6 months <br />
-                Class Schedule: 6 days a week <br />
+                Course Duration: 3/4 months <br />
+                Class Schedule: 5 days a week <br />
                 Separate batches for kids, women, and men. <br />
                 Medium: Zoom, WhatsApp, Skype. <br />
                 Classes are conducted by skilled teachers and Hafiz Qaris. <br />

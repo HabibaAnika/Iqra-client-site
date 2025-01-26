@@ -56,12 +56,13 @@ function HifzDetails() {
         </h2>
         <p className="text-sm bg-[#42b3e057] p-4 rounded-sm mb-4">
           {language === "en"
-            ? "The Hifz Course spans 1-3 years depending on individual progress. Classes are held 6 days a week with flexible timing options. Students receive one-on-one sessions to ensure focused learning. A dedicated WhatsApp group is available for continuous support and guidance."
-            : "হিফজ কোর্সের সময়কাল ১-৩ বছর, যা শিক্ষার্থীর অগ্রগতির উপর নির্ভরশীল। সপ্তাহে ৬ দিন ক্লাস এবং সময়ের ক্ষেত্রে নমনীয়তা রয়েছে। শিক্ষার্থীরা ফোকাসড শেখার জন্য একান্ত সেশনের সুযোগ পায়। টানা সহায়তা এবং নির্দেশনার জন্য একটি নিবেদিত হোয়াটসঅ্যাপ গ্রুপ রয়েছে।"}
+            ? "The Hifz Course spans 3/4 years depending on individual progress. Classes are held 6 days a week with flexible timing options. Students receive one-on-one sessions to ensure focused learning. A dedicated WhatsApp group is available for continuous support and guidance."
+            : "হিফজ কোর্সের সময়কাল ৩/৪ বছর, যা শিক্ষার্থীর অগ্রগতির উপর নির্ভরশীল। সপ্তাহে ৬ দিন ক্লাস এবং সময়ের ক্ষেত্রে নমনীয়তা রয়েছে। শিক্ষার্থীরা ফোকাসড শেখার জন্য একান্ত সেশনের সুযোগ পায়। টানা সহায়তা এবং নির্দেশনার জন্য একটি নিবেদিত হোয়াটসঅ্যাপ গ্রুপ রয়েছে।"}
           {language === "bn" ? (
-            <>
+            <><br />
               কোর্সের সময়সীমা: ৩/৪ বছর <br />
-              ক্লাসের সময়: সপ্তাহে ৬ দিন <br />
+              ক্লাসের সময়: সপ্তাহে ৫ দিন <br />
+              কোর্স ফি ঃ ১৪৯৯ টাকা (মাসিক) <br />
               উন্নত তাজবীদ এবং ক্বিরাত শেখানো হবে। <br />
               পুরুষ/মহিলা ও ছোট বাচ্চা সবার জন্য আলাদা ব্যাচ আছে। <br />
               মহিলা শিক্ষার্থীদের ক্লাস মহিলা শিক্ষিকা নিবেন। <br />
@@ -76,9 +77,10 @@ function HifzDetails() {
               সীমিত কোটায় ভর্তি চলছে।
             </>
           ) : (
-            <>
+            <><br />
               Course Duration: 3/4 years <br />
-              Class Schedule: 6 days a week <br />
+              Class Schedule: 5 days a week <br />
+              Course Fee: 1499 Taka (monthly) <br />
               Advanced Tajweed and Qirat training will be provided. <br />
               There are separate batches for men/women and children. <br />
               Class of female students will be taken by female teacher. <br />

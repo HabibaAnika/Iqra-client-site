@@ -22,6 +22,8 @@ import Blog_1 from "../pages/islamicBlogs/Blog_1";
 import Blog_2 from "../pages/islamicBlogs/Blog_2";
 import Blog_3 from "../pages/islamicBlogs/Blog_3";
 import AllBlog from "../pages/islamicBlogs/AllBlog";
+import Routine from "../pages/Routine";
+import Attendance from "../pages/Attendance";
 
 export const router = createBrowserRouter([
   {
@@ -117,6 +119,14 @@ export const router = createBrowserRouter([
       {
         path: "/allBlog",
         element: <AllBlog/>
+      },
+      {
+        path: "/routine",
+        element: <Routine/>
+      },
+      {
+        path: "/attendance",
+        element: <Attendance/>
       }
     ],
   },

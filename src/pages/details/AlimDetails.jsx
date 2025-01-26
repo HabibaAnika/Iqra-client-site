@@ -58,30 +58,45 @@ function AlimDetails() {
         </h2>
         <p className="text-sm mb-4 bg-[#bbe0e459] p-4 rounded-sm">
           {language === "en"
-            ? "The Alim Course spans 5-6 years, divided into multiple levels. Classes are conducted 6 days a week by qualified scholars, ensuring a detailed and structured learning experience. Online and on-campus options are available."
-            : "আলিম কোর্সটি ৫-৬ বছরের একটি প্রোগ্রাম, যা বিভিন্ন স্তরে বিভক্ত। এই কোর্সটি ৬ দিন ক্লাসের মাধ্যমে দক্ষ আলেমদের দ্বারা পরিচালিত হয়, যা একটি বিস্তারিত এবং সুসংগঠিত শিক্ষার অভিজ্ঞতা নিশ্চিত করে। অনলাইন এবং অন-ক্যাম্পাস উভয় বিকল্পই উপলব্ধ।"}
+            ? "The Alim Course spans 3/4 Years, divided into multiple levels. Classes are conducted 5 days a week by qualified scholars, ensuring a detailed and structured learning experience. Online and on-campus options are available."
+            : "আলিম কোর্সটি ৩/৪ বছরের একটি প্রোগ্রাম, যা বিভিন্ন স্তরে বিভক্ত। এই কোর্সটি ৫ দিন ক্লাসের মাধ্যমে দক্ষ আলেমদের দ্বারা পরিচালিত হয়, যা একটি বিস্তারিত এবং সুসংগঠিত শিক্ষার অভিজ্ঞতা নিশ্চিত করে। অনলাইন এবং অন-ক্যাম্পাস উভয় বিকল্পই উপলব্ধ।"}
         </p>
 
         <p className="text-sm bg-[#bbe0e459] p-4 rounded-sm">
           {language === "bn" ? (
             <>
-              কোর্সের সময়সীমা: ৫-৬ বছর <br />
-              ক্লাসের সময়: সপ্তাহে ৬ দিন <br />
-              শিক্ষার মাধ্যম: অনলাইন , জুম বা মিট বা হোয়াটস অ্যাপ
+              কোর্সের সময়সীমা: ৩/৪ বছর <br />
+              কোর্স ফি : ১৪৯৯ টাকা (মাসিক) <br />
+              ক্লাসের সময়: সপ্তাহে ৫ দিন <br />
+              উন্নত তাজবীদ এবং ক্বিরাত শেখানো হবে। <br />
+              পুরুষ/মহিলা ও ছোট বাচ্চা সবার জন্য আলাদা ব্যাচ আছে। <br />
+              মহিলা শিক্ষার্থীদের ক্লাস মহিলা শিক্ষিকা নিবেন। <br />
+              এছাড়াও হোয়াটসঅ্যাপ এর মাধ্যমে সার্বক্ষণিক সহযোগিতা প্রদান করা।{" "}
               <br />
-              ক্লাস পরিচালনায়: দক্ষ আলেম এবং ক্বারী <br />
-              সেশন শুরু: জানুয়ারি ২০২৫ <br />
-              ভর্তির শেষ তারিখ: ডিসেম্বর ৩১, ২০২৪
+              ঘরে বসেই প্রশিক্ষণপ্রাপ্ত অভিজ্ঞ উস্তাজ, হাফিজ ক্বারী এবং আলেমদের
+              দ্বারা অনলাইনে কুরআন তাজবীদ শিখুন। <br />
+              ক্লাসের মাধ্যম: জুম, মিট, হোয়াটসঅ্যাপ ,স্কাইপি লাইভ ক্লাস।
+              (রেকর্ড ক্লাস দেয়া হয়)
+              <br />
+              ডেমো ক্লাস করার পর আপনি ভর্তি হতে পারবেন <br />
+              সীমিত কোটায় ভর্তি চলছে।
             </>
           ) : (
             <>
-              Duration: 5-6 years <br />
-              Class Schedule: 6 days a week <br />
-              Mode of Learning: Online by Zoom or Meet or Whatsapp
-              <br />
-              Conducted by: Qualified Scholars and Qaris <br />
-              Session Start: January 2025 <br />
-              Last Date of Admission: December 31, 2024
+              Duration: 3/4 Years <br />
+              Class Schedule: 5 days a week <br />
+              Course Fee: 1499 Taka (monthly)  <br />
+              Advanced Tajweed and Qirat training will be provided. <br />
+              There are separate batches for men/women and children. <br />
+              Class of female students will be taken by female teacher. <br />
+              Also providing round the clock support through WhatsApp. <br />
+              Learn Quran Tajweed online by trained experienced Ustaz, Hafiz
+              Qari and Scholars from home. <br />
+              Class Medium: Zoom , Google Meet, WhatsApp, Skype Live Class.
+              (Recorded video is provided) <br />
+              After demo className you can get admission <br />
+              Admission is going on in limited quota.
+             
             </>
           )}
         </p>

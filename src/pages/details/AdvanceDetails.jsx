@@ -55,13 +55,13 @@ function AdvanceDetails() {
         </h2>
         <p className="text-sm mb-4 bg-[#27bfe675] p-4 rounded-sm">
           {language === "en"
-            ? "This course runs for 6 months, with 6 classes per week. Students will get personalized guidance to perfect their recitation and Tajweed. The course fee is 1499 per month."
-            : "এই কোর্সটি ৬ মাসের জন্য পরিচালিত হয়, সপ্তাহে ৫ দিন ক্লাস। শিক্ষার্থীদের তিলাওয়াত এবং তাজবীদ নিখুঁত করার জন্য ব্যক্তিগত দিকনির্দেশনা প্রদান করা হয়। কোর্স ফি প্রতি মাসে ১৪৯৯।"}
+            ? "This course runs for 1 years, with 5 classes per week. Students will get personalized guidance to perfect their recitation and Tajweed. The course fee is 1499 per month."
+            : "এই কোর্সটি ১ বছরের জন্য পরিচালিত হয়, সপ্তাহে ৫ দিন ক্লাস। শিক্ষার্থীদের তিলাওয়াত এবং তাজবীদ নিখুঁত করার জন্য ব্যক্তিগত দিকনির্দেশনা প্রদান করা হয়। কোর্স ফি প্রতি মাসে ১৪৯৯।"}
           <p>
             {language === "bn" ? (
               <>
-                কোর্সের সময়সীমা: ৬ মাস <br />
-                ক্লাসের সময়: সপ্তাহে ৬ দিন <br />
+                কোর্সের সময়সীমা: ১ বছর <br />
+                ক্লাসের সময়: সপ্তাহে ৫ দিন <br />
                 উন্নত তাজবীদ এবং ক্বিরাত শেখানো হবে। <br />
                 পুরুষ/মহিলা ও ছোট বাচ্চা সবার জন্য আলাদা ব্যাচ আছে। <br />
                 মহিলা শিক্ষার্থীদের ক্লাস মহিলা শিক্ষিকা নিবেন। <br />
@@ -77,8 +77,8 @@ function AdvanceDetails() {
               </>
             ) : (
               <>
-                Course Duration: 6 months <br />
-                Class Schedule: 6 days a week <br />
+                Course Duration: 1 years <br />
+                Class Schedule: 5 days a week <br />
                 Advanced Tajweed and Qirat training will be provided. <br />
                 There are separate batches for men/women and children. <br />
                 Class of female students will be taken by female teacher. <br />
