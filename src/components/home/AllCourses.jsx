@@ -334,7 +334,7 @@ function AllCourses() {
           {language === "en" ? "All Courses" : "সকল কোর্স"}
         </motion.h2>
         
-        <motion.div className="grid xl:grid-cols-4 md:grid-cols-2 gap-5"
+        <motion.div className="grid xl:grid-cols-4 md:grid-cols-2 xl:gap-12 md:gap-10 gap-10"
           initial="hidden"
           animate="visible"
           variants={containerVariants}
@@ -352,7 +352,7 @@ function AllCourses() {
             </motion.div>
           ))}
         </motion.div>
-
+        
       </div>
     </div>
   );
